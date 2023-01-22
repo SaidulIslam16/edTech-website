@@ -10,6 +10,10 @@
 .section{
     margin-top: 130px;
 }
+h1{
+    font-size: 45px;
+    font-weight: 700;
+}
 a{
     text-decoration: none;
     color: black;
@@ -80,4 +84,8 @@ h3{
 /* Learning */
 .leaning-bg{
     background-color: #F4FAFD;
+}
+
+.leaning-img{
+    padding-left: 0;
 }
