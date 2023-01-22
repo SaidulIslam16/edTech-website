@@ -4,10 +4,38 @@
     --hover-blue: #147fbc;
 }
 
+
+/* Global  */
+
+.section{
+    margin-top: 130px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+h6{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 600;
+
+}
 .pro-edu-btn{
     color: var(--blue);
     border: 1px solid var(--blue);
     padding: 7px 20px;
+    /* border-radius: 5px; */
 }
 .pro-edu-btn:hover{
     color: white;
@@ -40,4 +68,11 @@
 
 .carousel-cap-details{
     bottom: 200px;
+}
+
+
+/* Course  */
+
+.section-title{
+    max-width: 606px;
 }
