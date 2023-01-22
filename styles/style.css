@@ -1,0 +1,13 @@
+
+:root{
+    --blue:#289BDE;
+}
+
+.pro-edu-btn{
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+.pro-edu-btn:hover{
+    color: white;
+    background-color: var(--blue)
+}
