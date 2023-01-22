@@ -1,21 +1,43 @@
 
 :root{
     --blue:#289BDE;
+    --hover-blue: #147fbc;
 }
 
 .pro-edu-btn{
     color: var(--blue);
     border: 1px solid var(--blue);
+    padding: 7px 20px;
 }
 .pro-edu-btn:hover{
     color: white;
     background-color: var(--blue)
 }
 
+.filled{
+    color: white;
+    background-color: var(--blue)
+}
+.filled:hover{
+    color: white;
+    background-color: var(--hover-blue)
+}
+
 /* Caruosal styl  */
 
 
 .c-img{
-    width: 100%;
-    object-fit: contain;
+    filter: brightness(.5);
+}
+
+.carousel-cap-details h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.carousel-cap-details p{
+    font-size: 18px;
+}
+
+.carousel-cap-details{
+    bottom: 200px;
 }
