@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
 
 :root{
     --blue:#289BDE;
     --hover-blue: #147fbc;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -88,4 +95,23 @@ h3{
 
 .leaning-img{
     padding-left: 0;
+}
+
+/* Register section  */
+
+.register-bg{
+    background-color: var(--blue);
+}
+
+.white-btn{
+    background-color: wheat;
+    color: var(--blue);
+}
+.white-btn:hover{
+    background-color: rgb(226, 226, 226);
+    color: var(--blue);
+}
+
+.register-text{
+    color: white;
 }
