@@ -11,3 +11,11 @@
     color: white;
     background-color: var(--blue)
 }
+
+/* Caruosal styl  */
+
+
+.c-img{
+    width: 100%;
+    object-fit: contain;
+}
