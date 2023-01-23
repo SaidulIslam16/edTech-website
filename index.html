@@ -13,7 +13,7 @@
     <header>
         <!-- navigation -->
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
+            <div class="container bg-white">
               <a class="navbar-brand fs-3 fw-bold" href="#">Pro Edu</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,19 +24,19 @@
                     <a class="nav-link px-4 active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-4" href="#">Courses</a>
+                    <a class="nav-link px-4" href="#courses">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-4" href="#">Deals</a>
+                    <a class="nav-link px-4" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-4" href="#">Success</a>
+                    <a class="nav-link px-4" href="#success">Success</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-4" href="#">About</a>
+                    <a class="nav-link px-4" href="#review">Review</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-4" href="#">Register</a>
+                    <a class="nav-link px-4" href="#register">Register</a>
                   </li>
                 </ul>
                 <button class="btn pro-edu-btn">Register</button>
@@ -92,7 +92,7 @@
 
     <main>
         <!-- courses section  -->
-        <section class="container section">
+        <section class="container section " id="courses">
             <div class="section-title mx-auto text-center">
                 <h1>Discover Our Popular Courses</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -181,7 +181,7 @@
         </section>
 
         <!-- Learning Institute -->
-        <section class="container section leaning-bg rounded-3">
+        <section class="container section leaning-bg rounded-3" id="about">
 
             <div class="row row-cols-1 row-cols-md-2 ">
                     <div class="col leaning-img"><img src="images/working.png" alt="" class="img-fluid"></div>
@@ -214,7 +214,7 @@
 
         </section>
         <!-- Register Call to Action  -->
-        <section class="container section register-bg py-4 px-5 rounded-2">
+        <section class="container section register-bg py-4 px-5 rounded-2" id="register">
             <div class="row row-cols-1 row-cols-md-2">
               <div class="col">
                 <div class="register-text text-center text-md-start">
@@ -260,7 +260,7 @@
 
         <!-- Students section  -->
 
-        <section class="container section">
+        <section class="container section" id="success">
             <div class="student-sec-title" style="max-width: 556px;">
                 <h1>Meet Our Successfull Students</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -310,14 +310,15 @@
 
         <!-- Student Feedback section  -->
 
-        <section class="container section">
+        <section class="container section" id="review">
             <div class=" mx-auto text-center" style="max-width: 700px;">
                 <h1>Some Students Feedback</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
             <div class="row row-cols-1 row-cols-md-2 g-3">
                 <div class="col">
-                    <div class="p-5 border rounded-2">
+                    <div class="p-5 border rounded-2 position-relative">
+                      <button class="position-absolute top-50 start-0 z-2 translate-middle border-0 rounded-circle p-3 d-none d-lg-block"><i class=" left-arrow fa-solid fa-circle-left fa-2x opacity-50"></i></button>
                         <div class="d-flex justify-content-between">
                           <img src="images/comma.png" alt="">
                           <p>
@@ -341,7 +342,8 @@
                     </div>
                 </div>
                 <div class="col">
-                  <div class=" p-5 border rounded-2">
+                  <div class=" p-5 border rounded-2 position-relative">
+                    <button class="position-absolute top-50 start-100 z-2 translate-middle border-0 rounded-circle p-3 d-none d-lg-block"><i class=" right-arrow fa-solid fa-circle-right fa-2x"></i></button>
                       <div class="d-flex justify-content-between">
                         <img src="images/comma.png" class="img-fluid" alt="">
                         <p>
