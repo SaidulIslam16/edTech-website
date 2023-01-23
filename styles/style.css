@@ -133,3 +133,11 @@ h3{
 .faqs{
     max-width: 872px;
 }
+
+
+/* Footer  */
+
+.footer p{
+font-size: 15px;
+line-height: 25px;
+}
