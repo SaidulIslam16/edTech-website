@@ -183,15 +183,15 @@
         <!-- Learning Institute -->
         <section class="container section leaning-bg rounded-3">
 
-            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-md-2 ">
+            <div class="row row-cols-1 row-cols-md-2 ">
                     <div class="col leaning-img"><img src="images/working.png" alt="" class="img-fluid"></div>
-                    <div class="col pe-5  d-flex align-items-center">
+                    <div class="col p-3  d-flex align-items-center">
                         <div class="">
                         <h1>Explore The elearning Institute</h1>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
                         <br>
                         Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
-                        <div class="d-flex gap-5">
+                        <div class="d-flex gap-2 gap-md-5">
                             <div>
                                 <h1>600+</h1>
                                 <p>Online Course</p>
@@ -214,48 +214,54 @@
 
         </section>
         <!-- Register Call to Action  -->
-        <section class="container section register-bg py-4 px-5 d-flex align-items-center justify-content-between rounded-2">
-            <div class="w-50 register-text">
-                <h1>Ready to join?</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <section class="container section register-bg py-4 px-5 rounded-2">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col">
+                <div class="register-text text-center text-md-start">
+                    <h1>Ready to join?</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-center justify-content-md-end justify-content-center">
+                <!-- Button trigger modal -->
+              <button type="button" class="btn white-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+              </div>
             </div>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn white-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
   
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Register your Class with ProEd</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form action="">
-            <input type="text" name="Name" id="" placeholder="Enter your Name">
-            <input type="email" name="" id="" placeholder="Enter your Email"><br>
-            <p>Select your Mejor</p>
-            <input type="radio" name="" id=""><span>Engneering</span>
-            <input type="radio" name="" id=""><span>Business Study</span>
-            <p>Subjects</p>
-            <input type="checkbox" name="Subjects" id=""><span>Math</span>
-            <input type="checkbox" name="Subjects" id=""><span>English</span>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div> 
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register your Class with ProEd</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="">
+                      <input type="text" name="Name" id="" placeholder="Enter your Name">
+                      <input type="email" name="" id="" placeholder="Enter your Email"><br>
+                      <p>Select your Mejor</p>
+                      <input type="radio" name="" id=""><span>Engneering</span>
+                      <input type="radio" name="" id=""><span>Business Study</span>
+                      <p>Subjects</p>
+                      <input type="checkbox" name="Subjects" id=""><span>Math</span>
+                      <input type="checkbox" name="Subjects" id=""><span>English</span>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div> 
 
         </section >
 
         <!-- Students section  -->
 
         <section class="container section">
-            <div class="student-sec-title w-50">
+            <div class="student-sec-title" style="max-width: 556px;">
                 <h1>Meet Our Successfull Students</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
@@ -418,15 +424,15 @@
 
       <!-- Company logos -->
 
-      <section class="container section">
+      <section class="container section d-md-none d-lg-block d-none">
         <h1 class="text-center">Trusted by over 800+ companies</h1>
         <div class="row mt-5">
-          <div class="col"><img src="images/company/company-1.png" alt=""></div>
-          <div class="col"><img src="images/company/company-2.png" alt=""></div>
-          <div class="col"><img src="images/company/company-3.png" alt=""></div>
-          <div class="col"><img src="images/company/company-4.png" alt=""></div>
-          <div class="col"><img src="images/company/company-5.png" alt=""></div>
-          <div class="col"><img src="images/company/company-6.png" alt=""></div>
+          <div class="col"><img class="img-fluid" src="images/company/company-1.png" alt=""></div>
+          <div class="col"><img class="img-fluid" src="images/company/company-2.png" alt=""></div>
+          <div class="col"><img class="img-fluid" src="images/company/company-3.png" alt=""></div>
+          <div class="col"><img class="img-fluid" src="images/company/company-4.png" alt=""></div>
+          <div class="col"><img class="img-fluid" src="images/company/company-5.png" alt=""></div>
+          <div class="col"><img class="img-fluid" src="images/company/company-6.png" alt=""></div>
         </div>
       </section>
     </main>
